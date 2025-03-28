@@ -4,7 +4,7 @@ import { ConfigService } from '@nestjs/config';
 import { HttpService } from '@nestjs/axios';
 import { AxiosResponse } from 'axios';
 import { Cron, CronExpression } from '@nestjs/schedule';
-import * as moment from 'moment-timezone';
+import moment from 'moment-timezone';
 import * as dotenv from 'dotenv';
 dotenv.config();
 @Injectable()
