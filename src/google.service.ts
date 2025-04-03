@@ -121,7 +121,7 @@ export class GoogleCalendarService {
     }
   }
 
-  @Cron(CronExpression.EVERY_DAY_AT_10AM)
+  @Cron(CronExpression.EVERY_DAY_AT_3PM)
   public async makeCalendarEvents() {
     console.log('runnning');
     const contests = await this.getContests();
