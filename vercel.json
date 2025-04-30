@@ -12,5 +12,12 @@
       "dest": "src/main.ts",
       "methods": ["GET", "POST", "PATCH", "DELETE", "PUT", "OPTIONS"]
     }
+  ],
+
+  "crons": [
+    {
+      "path": "/",
+      "schedule": "0 15 * * *"
+    }
   ]
 }
